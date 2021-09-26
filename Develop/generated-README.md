@@ -1,7 +1,7 @@
 # Good README Generator
   ## Description:
   The purpose of this project is to have an application create a README file for the user. The user will answer questions about their project. Once the user answer's all the prompts the application will use the information given to generate a README file about the project. The README will include the title, table of contents, description, usuage, installation, contributers, and contact information.  
-  ![screenshot]()
+  ![screenshot](Develop/Assets/Good-README-generated.JPG)
   ## Table of Contents:
   * [1. Installation](#installation)
   * [2. Usage](#usage)
