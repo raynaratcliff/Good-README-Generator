@@ -1,4 +1,5 @@
 //Included packages needed for this application: Requirments 
+const { clear } = require("console");
 const fs = require("fs");
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
@@ -74,7 +75,7 @@ function writeToFile(fileName, data) {
   async function init() {
     const answers = await inquirer.prompt(questions);
     const markdown = generateMarkdown(answers);
-    writeToFile('./exported/exported_README.md', markdown);
+    writeToFile('generated-README.md', markdown);
   }
   
   // function call to initialize program
